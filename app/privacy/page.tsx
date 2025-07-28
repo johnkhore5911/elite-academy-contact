@@ -204,6 +204,41 @@ export default function PrivacyPolicyPage() {
                   </p>
                 </div>
               </section>
+
+
+
+              <section className="bg-purple-50 rounded-xl p-6 border border-purple-100">
+                <div className="flex items-center mb-4">
+                  <Lock className="w-6 h-6 text-purple-600 mr-3" />
+                  <h2
+                    style={{
+                      fontSize: "20px",
+                      fontWeight: 600,
+                      color: "#1f2937",
+                    }}
+                  >
+                    📌 Data Security:
+                  </h2>
+                </div>
+                <div
+                  style={{
+                    fontSize: "16px",
+                    color: "#374151",
+                    lineHeight: "24px",
+                  }}
+                >
+                  <p>
+                    We take the security of your personal data seriously. Your credentials are securely encrypted, and
+                    we do not share your information with any third-party services.
+                  </p>
+
+                  <p>
+                    ⚠️ <strong>Disclaimer:</strong> This app is <u>not affiliated with any government entity or official examination authority</u>. All content is provided for educational and exam preparation purposes only.
+                  </p>
+                </div>
+              </section>
+
+              
             </div>
 
             {/* Contact Section */}
