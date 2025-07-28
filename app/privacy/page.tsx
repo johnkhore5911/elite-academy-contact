@@ -178,7 +178,7 @@ export default function PrivacyPolicyPage() {
               </section>
 
               {/* Data Security */}
-              <section className="bg-purple-50 rounded-xl p-6 border border-purple-100">
+              {/* <section className="bg-purple-50 rounded-xl p-6 border border-purple-100">
                 <div className="flex items-center mb-4">
                   <Lock className="w-6 h-6 text-purple-600 mr-3" />
                   <h2
@@ -203,7 +203,7 @@ export default function PrivacyPolicyPage() {
                     we do not share your information with any third-party services.
                   </p>
                 </div>
-              </section>
+              </section> */}
 
 
 
