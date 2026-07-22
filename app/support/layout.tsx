@@ -1,10 +1,15 @@
 import type React from "react"
-import type { Metadata } from "next"
+import type { Metadata, Viewport } from "next"
 import { Inter } from "next/font/google"
 import "../globals.css"
 
 
 const inter = Inter({ subsets: ["latin"] })
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+}
 
 export const metadata: Metadata = {
   title: "Elite Academy - Support & Help Center",
@@ -12,7 +17,6 @@ export const metadata: Metadata = {
     "Get help and support for Elite Academy app. Contact us for any questions about mock tests, courses, or technical issues. We are here to help you succeed in your government exam preparation.",
   keywords: "Elite Academy, support, help, government exams, mock tests, courses, contact",
   authors: [{ name: "Elite Academy Team" }],
-  viewport: "width=device-width, initial-scale=1",
   robots: "index, follow",
   openGraph: {
     title: "Elite Academy - Support & Help Center",
