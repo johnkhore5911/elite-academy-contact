@@ -168,12 +168,15 @@ export default function PrivacyPolicyPage() {
                 >
                   <div className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-orange-500 rounded-full mt-2 flex-shrink-0"></div>
-                    <p>All purchases made within the app, including mock tests, are final and non-refundable.</p>
+                    <p>All purchases made within the app, including mock tests and Tracker Premium, are processed through your Apple App Store or Google Play account. Tracker Premium is an auto-renewing subscription that renews automatically unless canceled at least 24 hours before the end of the current period; you can manage or cancel it anytime in your App Store or Google Play account settings. Charges already processed are final and non-refundable, except where required by Apple's or Google's refund policies.</p>
                   </div>
+                  
                   <div className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-orange-500 rounded-full mt-2 flex-shrink-0"></div>
                     <p>Please review test details carefully before purchasing.</p>
                   </div>
+
+
                 </div>
               </section>
 
